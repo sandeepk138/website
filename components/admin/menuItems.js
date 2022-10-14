@@ -35,27 +35,27 @@ const menuItems = [
 	submenu: [
       {
         title: 'Special Fresh Deliveries',
-        url: 'web-design',
+        url: '/products-page/1',
       },
       {
         title: 'Organic Rice',
-        url: 'web-dev',
+        url: '/products-page/1',
       },
       {
         title: 'Organic Wheat',
-        url: 'seo',
+        url: '/products-page/2',
       },
 	  {
         title: 'Organic Millets & Others',
-        url: 'web-design',
+        url: '/products-page/3',
       },
       {
         title: 'Organic Flours',
-        url: 'web-dev',
+        url: '/products-page/1',
       },
       {
         title: 'Organic Dals & Pulses',
-        url: 'seo',
+        url: '/products-page/1',
       },
 	  {
         title: 'Organic Breakfast',
@@ -127,7 +127,7 @@ const menuItems = [
       },
       {
         title: 'Ghee',
-        url: 'seo',
+        url: '/products-page/1',
       },
 	  {
         title: 'Cold Pressed Oils',
