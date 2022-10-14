@@ -1,4 +1,4 @@
-import DropdownComponent from './DropdownComponent';
+import DropdownComponent from './dropDownComponent';
 import { useState } from "react";
 
 const MenuItemsComponent = ({ items, depthLevel }) => {
