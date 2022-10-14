@@ -31,7 +31,7 @@ const menuItems = [
   },
   {
     title: 'ORGANIC GROCERIES',
-    url: '/',
+    url: '/products-page/1',
 	submenu: [
       {
         title: 'Special Fresh Deliveries',
