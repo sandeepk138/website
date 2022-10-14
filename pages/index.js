@@ -1,5 +1,5 @@
 import FeatchTab from "../components/ecommerce/fetchTab";
-import Testimonials from "../components/ecommerce/testimonials"
+import Testimonials from "../components/ecommerce/Testimonials"
 import Testimonialstest from "../components/ecommerce/testimonialstest"
 import BlogOnHomepage from "./../components/elements/BlogOnHomepage";
 import Intro1 from "./../components/sliders/Intro1";
