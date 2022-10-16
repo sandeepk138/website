@@ -64,7 +64,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-  
+
 
 thead {
   font-weight: 600; }
@@ -90,8 +90,8 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-  
-  
+
+
 
 img {
   max-width: 100%; }
@@ -125,7 +125,7 @@ a {
   color: #3BB77E; }
   a:hover {
     color: #FDC040; }
-	
+
 
 li.hr span {
   width: 100%;
@@ -798,7 +798,7 @@ h5.widget-title {
   border-color: #253D4E;
   font-weight: 700;
   border: 0; }
- 
+
 
 button.submit, button[type='submit'] {
   font-size: 16px;
@@ -810,7 +810,7 @@ button.submit, button[type='submit'] {
   border: 1px solid #29A56C;
   border-radius: 10px; }
   /*   button.submit:hover, button[type='submit']:hover {
-    background-color: #2e5984 !important; }  */ 
+    background-color: #2e5984 !important; }  */
 
 
 .btn-admin, button.btn-admin { /*by Sandeep*/
@@ -822,24 +822,24 @@ button.submit, button[type='submit'] {
   border: 1px solid #29A56C;
   border-radius: 10px; }
   button.btn-admin.save-new-product {
-	width: 100px  
+	width: 100px
   }
    button.btn-admin.save-new-product:hover {
 	 background-color: #2e5984 !important;
-  } 
+  }
 
-  
+
  #dropdown-menu {   /*by Sandeep*/
 	font-size: 16px;
   font-weight: 500;
   padding: 10px 10px;
   color: #ffffff;
   border: none;
-  background-color: #7db641;   
+  background-color: #7db641;
   border: 1px solid #29A56C;
   border-radius: 10px;
   width: 100%;
-} 
+}
 
 #dropdown-menu:hover {
 	background-color: #7db641;
@@ -858,7 +858,7 @@ div.admin-cat-plus-divin {
 div.admin-cat-plus-divin:hover {
 	background: url("/assets/imgs/icons/plus-sign.jpg") no-repeat;
 }
-	
+
 div.admin-cat-minus-divout {
 	position: relative;
 }
@@ -871,10 +871,10 @@ div.admin-cat-minus-divin {
 }
 div.admin-cat-minus-divin:hover {
 	background: url("/assets/imgs/icons/minus-sign.jpg") no-repeat;
-}	
-		
+}
+
 div.admin-cat-list {
-	margin-left: -40px;	
+	margin-left: -40px;
 }
 
 th.table-cat-width {
@@ -936,7 +936,7 @@ div.modal-dialog {
 }
 
 div.modal-header {
-	background: #36454F;	
+	background: #36454F;
 }
  div.modal-header h5.modal-title {
 	 color: white;
@@ -945,18 +945,18 @@ div.modal-header {
 div.admin-modal {
 	border: ;
 }
-div.admin-modal option.admin-options{	
+div.admin-modal option.admin-options{
 	font-size: 15px;
 	color: black;
-	font-family: serif;	
+	font-family: serif;
 }
 
-button.admin-modal-button {	
+button.admin-modal-button {
 	background:  #36454F;
 	font-size: 15px;
 	border-radius: 2px;
 	color: white;
-	border: 0px;	
+	border: 0px;
 }
 
 label.admin {
@@ -966,39 +966,39 @@ label.admin {
  label.admin.right-spacing {
 	 margin-right: -5px;
  }
- 
+
  select.admin-add-prod-cat {
-	border: 2px solid #36454F; 
+	border: 2px solid #36454F;
  }
- 
+
  #admin-button-order {
-	 height:60px; 
-	 border:1px solid #d3d3d3; 
+	 height:60px;
+	 border:1px solid #d3d3d3;
 	 color:#616161;
  }
- 
+
 #admin-button-order-clicked {
 	  background: #CECECE;
 	  color: #616161 !important;
 	  border:1px solid #ffffff;
 }
- 
+
   #admin-button-order:hover{
 	  background: #EDEEF0;
 	  color: #616161 !important;
 	  border:1px solid #ffffff;
   }
-  
+
   #admin-button-order:hover label.admin-button-order-inner, #admin-button-order-clicked label.admin-button-order-inner {
-	 color: #616161 !important; 
+	 color: #616161 !important;
   }
-  
+
  label.admin-button-order-inner {
 	 color:#616161;
  }
- 
+
  /* menubar related styling begins */
- 
+
  * {
   margin: 0;
   padding: 0;
@@ -1098,7 +1098,7 @@ button span {
   list-style: none;
   background-color: #fff;
   border-radius: 0.5rem;
-  display: none; 
+  display: none;
 }
 
 .dropdown.show {
@@ -1129,7 +1129,7 @@ button span {
 }
 
 /* menubar related styling ends */
- 
+
 
 .btn-brand:hover {
   background-color: #29A56C !important; }
@@ -1165,7 +1165,7 @@ button span {
   transition: all 300ms linear 0s;
   letter-spacing: 0.5px; }
      .btn:hover, .button:hover {
-  background-color: #168cee; } 
+  background-color: #168cee; }
   .btn.btn-sm, .button.btn-sm {
     padding: 8px 18px;
     font-size: 12px;
@@ -1261,12 +1261,12 @@ input.input-admin {  /*Added by Sandeep*/
   width: 100%;
    }
 
- 
+
 div.admin-product-upload-wrapper {
   height: 180px;
-  width: 125px; 
-  border: 5px solid #7db641;  
-  border-radius: 15px; 
+  width: 125px;
+  border: 5px solid #7db641;
+  border-radius: 15px;
   display:inline-block;
   border-color: #168cee;
  }
@@ -1285,18 +1285,18 @@ div.admin-product-upload-wrapper {
  img.admin-product-image-delete {
 	display:none;
  }
- 
+
 p.edit-product-success {
 	 color: #2c3b21;
 	 border: 1px solid #7db641;
 	 font-size: 16px;
 	 font-weight:500;
 	 background: #Dcf1cd;
-	
- }
- 
 
- 
+ }
+
+
+
 
  /*select {
   width: 100%;
@@ -1305,14 +1305,14 @@ p.edit-product-success {
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 16px;
-  color: #7E7E7E; } 
+  color: #7E7E7E; }
 
  option {
   background: #fff;
   border: 0px solid #626262;
   padding-left: 10px;
   font-size: 16px; } */
-  
+
 
 
 textarea {
@@ -1848,9 +1848,11 @@ label {
 .slider-arrow {
   position: absolute;
   top: 50%;
-  /*transform: translateY(-50%); */
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   z-index: 2;
-  /* width: 100%; */ }
+  width: 100%;
+}
   .slider-arrow .slider-btn {
     cursor: pointer;
     background: #F2F3F4;
@@ -2277,7 +2279,7 @@ label {
      .nav-tabs .nav-link:hover {
       color: #3BB77E;
       background-color: #fde1bd;
- } 
+ }
     .nav-tabs .nav-link:first-child {
       margin-left: 0 !important;
       padding-left: 0 !important; }
@@ -2295,12 +2297,12 @@ label {
 
 .nav.right {
   justify-content: end; }
-  
-  
+
+
   .website-menubar-dropdown {
 	  background: #ffffff;
 	  color: #000000;
-	  
+
 	  position: absolute;
 	  top: 0;
 	  left:0;
@@ -2322,14 +2324,14 @@ label {
 	.dashboard-admin ul.admin-ul > li.active, .dashboard-admin ul.admin-sublist > li.active {
      color: #fff;
      background: #168cee; }
-	.dashboard-admin ul.admin-sublist li { 
+	.dashboard-admin ul.admin-sublist li {
 	border-radius: 5px;
 	margin-top: -8px;
 	margin-bottom: -8px;
-	}	 
+	}
 	.dashboard-admin ul.admin-sublist > li.not-active {
      color: #7E7E7E;
-     background: #fff;}	 
+     background: #fff;}
      .dashboard-admin ul li a {
        font-size: 16px;
 	   display: block;
@@ -2345,7 +2347,7 @@ label {
 	   padding-top: 5px;
 	   padding-bottom: 5px;
 	   padding-left: 25px;}
-	  .dashboard-admin ul li a::selection { 
+	  .dashboard-admin ul li a::selection {
 		background: grey;
 	  }
      .dashboard-admin ul li:not(:last-child) {
@@ -2354,10 +2356,10 @@ label {
 	p.form-validation-error {
 		color: red;
 		font-family: "Quicksand", sans-serif;
-		font-size: 13px !important; 
+		font-size: 13px !important;
 		margin-top: 0px !important;
 	}
-	
+
 
 	.form-check .form-check-input[type=checkbox] {
     height: 40px;
@@ -2365,14 +2367,14 @@ label {
 	margin-top: -10px;
 	margin-bottom: 20px;
 	}
-	
+
 	button.browse-images {
 		height: 100px;
 		width: 100px;
 		font-weight: 700;
-		
+
 	}
-	
+
 .dashboard-menu ul {
   padding: 0;
   margin: 0; }
@@ -2892,7 +2894,7 @@ table {
 
 /*modal*/
 .custom-modal .modal-dialog {
-  max-width: 500px !important; 
+  max-width: 500px !important;
   border-radius: 0px;
   overflow: hidden;
   border: 0;
@@ -2908,7 +2910,7 @@ table {
     right: 10px;
     top: 10px;
     z-index: 2; }
-	
+
 .custom-modal-images .modal-dialog {
   max-width: 800px !important;
   border-radius: 0px;
@@ -2933,7 +2935,7 @@ div.image-manager-outer	{
 	margin-right:10px;
 	margin-left:10px;
 	height: 250px;
-	width: 150px;	
+	width: 150px;
 }
  div.image-manager-outer img.image-manager-img {
 	 max-height: 170px;
@@ -2958,13 +2960,13 @@ tr.modal-stock-update-expired{
 }
 
 tr.modal-stock-update{
-	
+
 }
 
 
 #modal-stock-update{
 	min-width: 650px !important;
-	
+
 }
 
 #modal-purchase_batches{
@@ -2982,7 +2984,7 @@ label.admin-upload-image {
 	color: white;
 	font-weight:700;
 	font-size:25px;
-	padding-top: 35px;	
+	padding-top: 35px;
 }
 #admin-product-button {
 	width: 450px;
@@ -3004,18 +3006,18 @@ label.admin-upload-image {
 
 
 #admin-table {
-	border: 1px solid #000000;	
-	text-align: center ;	
+	border: 1px solid #000000;
+	text-align: center ;
 }
 
 #admin-table-white-border {
-	border: 1px solid #ffffff;	
-	text-align: center;	
+	border: 1px solid #ffffff;
+	text-align: center;
 }
 
 label.admin-upload-image:hover {
 	background-color: #2e5984;
-}	
+}
 
 button.btn-admin-report {
 	color:#ffffff;
@@ -6140,7 +6142,7 @@ h6.post-title {
   position: relative;
   overflow-x: clip; }
   .header-style-1.header-height-2 {
-    border-bottom: 0; } 
+    border-bottom: 0; }
   .header-style-1 .header-top-ptb-1 {
     background-image: none;
     padding: 10px 0; }
@@ -6323,8 +6325,8 @@ span.fi-rs-apps {
   font-weight: 700;
   color: #253D4E;
   font-family: "Quicksand", sans-serif; }
-  
-  
+
+
   .main-menu > nav > ul > li > a i {
     font-size: 8px;
     position: relative;
@@ -6516,7 +6518,7 @@ span.fi-rs-apps {
 
 .main-menu.main-menu-light-white > nav > ul > li > a {
   color: white; }
-  
+
 .main-menu.main-menu-padding-1 > nav > ul > li {
   padding: 0 17px; }
   .main-menu.main-menu-padding-1 > nav > ul > li:first-child {
@@ -7124,7 +7126,7 @@ footer .hotline {
     opacity: 0.5; }
 
  	 .newsletter {
-  position: relative; }   
+  position: relative; }
   .newsletter .newsletter-inner {
     background: #f7f7f7;  /* url(../imgs/banner/banner-10.png) no-repeat center */
     background-size: ;    /* cover */
@@ -7135,15 +7137,15 @@ footer .hotline {
     border-radius: 20px;
     overflow: hidden;
     min-height: 100px; }
-	
 
-	  
+
+
 	 .newsletter .newsletter-inner .newsletter-content {
 	  display:flex;
 	  align-items: baseline;
 	  justify-content: space-around}
-	  
-	  
+
+
     .newsletter .newsletter-inner .newsletter-content h3 {
       flex:50%;
 	  }
@@ -7164,7 +7166,7 @@ footer .hotline {
         border: 0;
         border-radius: 50px;
         font-weight: 700; }
-		
+
 
 .widget-about {
   min-width: 300px;
@@ -7855,7 +7857,7 @@ footer .hotline {
   padding: 0 5%; }
 
 /***************************
-    Page section margin 
+    Page section margin
 ****************************/
 .mtb-0 {
   margin: 0; }
@@ -8396,12 +8398,12 @@ footer .hotline {
 
 .mr-200 {
   margin-right: 200px !important; }
- 
 
 
- 
 
-  
+
+
+
  .bodyMod {
 	font-family: "Open Sans", sans-serif;
 }
@@ -8456,8 +8458,8 @@ footer .hotline {
 .carousel  .overview b.testimonialname  {
 	text-transform: uppercase;
 	color: #1c47e3;
-} 
-  
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -8658,8 +8660,8 @@ footer .hotline {
     min-width: 111px; }
   .custom-modal .modal-dialog {
     max-width: 720px !important; } }
-	
-	
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .mobile-promotion {
@@ -9128,10 +9130,10 @@ footer .hotline {
     display: none; }
   .newsletter form {
     margin: 15px 0; }
-	
 
-	
-	
+
+
+
   footer .col-lg-2.col-md-3 {
     width: 50%; }
   footer .download-app a img {
@@ -9193,14 +9195,14 @@ footer .hotline {
       margin-bottom: 25px !important; }
     .newsletter .newsletter-inner button.submit, .newsletter .newsletter-inner button[type="submit"] {
       padding: 12px 20px; }
-	
-	  
-	  
 
-	  
-  
-	  
-	  
+
+
+
+
+
+
+
   .footer-link-widget:not(:last-child) {
     margin-right: 0; }
   .widget-about {

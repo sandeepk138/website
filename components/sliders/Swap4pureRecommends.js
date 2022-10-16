@@ -97,10 +97,10 @@ const CategorySlider = () => {
 
     return (
         <>
-			<div className="text-center pt-40">			
-				<h2 > SWAP4PURE RECOMMENDS! </h2>		
-			</div>
-					
+            <div className="text-center pt-40 pb-40">
+                <h2> SWAP4PURE RECOMMENDS! </h2>
+            </div>
+
             <Swiper
                 autoplay={true}
                 loop={true}
@@ -129,7 +129,7 @@ const CategorySlider = () => {
             >
                 {data.map((item, i) => (
                     <SwiperSlide>
-                        <div className={`card-2 ${item.bg} wow animate__animated animate__fadeInUp`} onClick={(e) => selectCategory(e, item.slug)}>
+                        <div className={`card-2 ${item.bg} wow animate__animated animate__fadeInUp`} onClick={(e) => selectCategory(e, item.slug)} key={item.id}>
                             <figure className=" img-hover-scale overflow-hidden">
                                 <a>
                                     <img src={`assets/imgs/shop/${item.img}`} alt="" />

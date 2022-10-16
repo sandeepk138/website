@@ -19,14 +19,14 @@ export default function Home() {
 
             <Layout noBreadcrumb="d-none">
 
-						<HomepageBannersTop /> 
-						{/* <Intro1/> */}		                     				
-					
+						<HomepageBannersTop />
+						{/* <Intro1/> */}
+
 					<CategoriesHomepage/>
 
                 <section className="popular-categories section-padding">
                     <div className="container wow animate__fadeIn animate__animated">
-					{/* <div className="section-title">                   
+					{/* <div className="section-title">
 					</div> */}
                         <div className="carausel-10-columns-cover position-relative">
                             <div className="carausel-10-columns" id="carausel-10-columns">
@@ -35,16 +35,16 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-				
+
 				<section className="banners mb-25">
                     <div className="container">
                         <div className="row">
 							<Testimonials/>
-							
+
                         </div>
                     </div>
                 </section>
-				
+
 				<section className="home-slider position-relative mb-30">
                     <div className="container">
                         <div className="home-slide-cover mt-30">
@@ -60,10 +60,10 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-				
+
 				<section className="popular-categories section-padding">
                     <div className="container wow animate__fadeIn animate__animated">
-					{/* <div className="section-title">                   
+					{/* <div className="section-title">
 					</div> */}
                         <div className="carausel-10-columns-cover position-relative">
                             <div className="carausel-10-columns" id="carausel-10-columns">
@@ -72,7 +72,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-				
+
             </Layout>
         </>
     );
@@ -91,5 +91,5 @@ export default function Home() {
     return {
         props: {}, // will be passed to the page component as props
     }
-} 
+}
  */
