@@ -16,7 +16,7 @@ const SingleProductPage = () => {
 
  	useEffect(() => {
 		
-	if (!(router.query.slug == null)) {
+/*	if (!(router.query.slug == null)) {
 	
 			const menuUrl = "http://localhost:8083/api/products/" + router.query.slug;
 
@@ -24,10 +24,9 @@ const SingleProductPage = () => {
 				try {
 					const response = await fetch(menuUrl);
 					const json = await response.json();
-
-					console.log("product details, data fetched: ")
+					
+					console.log("From single products slug:")
 					console.log(json)
-
 					setProduct(json);
 
 				} catch (error) {
@@ -36,17 +35,54 @@ const SingleProductPage = () => {
 				}
 			}
 			fetchData();
-		}
-	}, [router.query.slug])
+		}    */
+  
+	
+	
+		const prods ={
+			
+				batchesData: [
+					{
+					batchNo: "2022-07-19",
+					mrp: 100,
+					quantity: 35
+					}
+				],
+
+				product: {
+					productId: 1,
+					productMrp: 90,
+					productName: "Organic Indrayani Rice",
+					sku: "SKU1", 
+					brand :  {brandId: 2, brandName: 'Shivansh Organic'},
+					images : [
+								{
+								imageId: 1,
+								imageName : "organic indrayani rice",
+							//	imageUrl : "http://localhost:8083/api/images/indrayani rice.jpg",
+								imageUrl : "/assets/imgs/products/indrayani rice.jpg"
+								}
+							 ]
+				},
+			 
+		} 
+		
+		setProduct(prods);  
+		
+
+		
+	},[router.query.slug])	 
 	
 	if(product == null) {	
 		return null;
 	//	Router.push("/404");
 	}
 	else {
+		console.log("product")
+		console.log(product)
 	    return (
 	         <>
-	         <Layout parent = "Home" sub = "Shop" subChild = {product.productName}>
+	         <Layout parent = "Home" sub = "Shop" subChild = {product?.product.productName}>
 				<div className = "container">
 					<ProductDetails productAndBatches={product}/> 
 				</div>

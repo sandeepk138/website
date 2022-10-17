@@ -28,19 +28,14 @@ const ProductsPageSlug = ({addProductsInReduxState}) => {
 
     useEffect(() => {
 		
-		if (!(router.query.slug == null)) {
+	/*		if (!(router.query.slug == null)) {
 		
 			const menuUrl = "http://localhost:8083/api/search-products-and-batches-by-category/" + router.query.slug + "/" + 2 + "/" + 0;
 
 			 const fetchData = async () => {
 				try {
 					const response = await fetch(menuUrl);
-					const json = await response.json();
-					
-				//	console.log("data fetched:")			
-				//	console.log( JSON.stringify(json))
-					
-				//	addProductsInReduxState(json);
+					const json = await response.json();					
 					setProductsInCat(json.dtos);
 			
 				} catch (error) {
@@ -50,7 +45,43 @@ const ProductsPageSlug = ({addProductsInReduxState}) => {
 						
 			fetchData(); 			
 			cratePagination();
-		}
+		}     */
+	
+		
+		const prods =[
+			{
+				batchesData: [
+					{
+					batchNo: "2022-07-19",
+					mrp: 100,
+					quantity: 35
+					}
+				],
+
+				product: {
+					productId: 1,
+					productMrp: 90,
+					productName: "Organic Indrayani Rice",
+					sku: "SKU1", 
+					brand :  {brandId: 2, brandName: 'Shivansh Organic'},
+					images : [
+								{
+								imageId: 1,
+								imageName : "organic indrayani rice",
+							//	imageUrl : "http://localhost:8083/api/images/indrayani rice.jpg",
+								imageUrl : "/assets/imgs/products/indrayani rice.jpg"
+								}
+							 ]
+				},
+			} 
+		] 
+		
+		cratePagination();
+		
+		console.log("prods")
+		console.log(prods)
+		
+		setProductsInCat(prods);  
 		
     }, [limit, pages, router.query.slug]); 
 		
