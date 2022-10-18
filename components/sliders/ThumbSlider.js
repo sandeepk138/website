@@ -41,7 +41,7 @@ const ThumbSlider = ({ product }) => {
                 watchSlidesProgress={true}
                 className="mySwiper"
             >
-            { swiperSlideImageArray }	    
+//             { swiperSlideImageArray }	    
             </Swiper>  
         </div>
     ); 
